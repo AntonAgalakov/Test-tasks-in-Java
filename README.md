@@ -16,8 +16,12 @@
 [Task 5]
 	Напишите Java-программу, чтобы определить, является ли строка или число палиндромом, или нет.
 
+[Task 6]
+	Написать программу на Java для вычисления серии чисел Фибоначчи.
+
 [Task 1]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task1/src/ru/ag
 [Task 2]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task2/src/ru/ag
 [Task 3]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task3/src/ru/ag
 [Task 4]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task4/src/ru/ag
 [Task 5]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task5/src/ru/ag
+[Task 6]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task6/src/ru/ag
