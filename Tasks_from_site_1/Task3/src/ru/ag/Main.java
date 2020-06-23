@@ -5,8 +5,8 @@ import java.util.HashMap;
 public class Main {
 
     public static void main(String[] args) {
-	    String str = "java c++ python ruby java javascript";
-	    String[] words = str.split(" ");
+	String str = "java c++ python ruby java javascript";
+	String[] words = str.split(" ");
         HashMap<String, Integer> hashMapWords = new HashMap<>();
 
         for (int i = 0; i < words.length; i++) {
