@@ -18,6 +18,9 @@
 
 [Task 6]
 	Написать программу на Java для вычисления серии чисел Фибоначчи.
+	
+[Task 7]
+	Напишите Java-программу для обхода ArrayList с использованием цикла for, while и улучшенного цикла for.
 
 [Task 1]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task1/src/ru/ag
 [Task 2]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task2/src/ru/ag
@@ -25,3 +28,4 @@
 [Task 4]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task4/src/ru/ag
 [Task 5]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task5/src/ru/ag
 [Task 6]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task6/src/ru/ag
+[Task 7]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task7/src/ru/ag
