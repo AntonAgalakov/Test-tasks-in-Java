@@ -25,6 +25,13 @@
 [Task 8]
 	Напишите программу на Java, чтобы найти повторяющиеся символы в строке.
 
+### 2. Задание от Intel
+[I-Task 1]
+	Есть веб-страница с таблицей. В таблице записи — это информация о клиентах.
+При клике на одну строку (на кнопку на строке), переходим на развёрнутую информацию о клиенте. Это тоже таблица. В ней есть поле для фотографии. Сделать возможность загружать фотографии и изменять.
+На первой странице в таблице есть ссылки на фотографии. На второй странице (с подробной информацией) подтягивается изображение.
+Расположение файлов фотографий на файловой системе. Привязку данных о клиенте с местом на файловой системе хранить в БД PostgreSQL
+
 [Task 1]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task1/src/ru/ag
 [Task 2]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task2/src/ru/ag
 [Task 3]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task3/src/ru/ag
@@ -33,3 +40,4 @@
 [Task 6]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task6/src/ru/ag
 [Task 7]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task7/src/ru/ag
 [Task 8]: https://github.com/AntonAgalakov/Test-tasks-in-Java/tree/master/Tasks_from_site_1/Task8/src/ru/ag
+
