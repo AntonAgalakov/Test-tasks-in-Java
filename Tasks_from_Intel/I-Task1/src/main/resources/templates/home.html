@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <div class="card border-primary mb-3" style="max-width: 100rem; margin-top: 20px; margin-inline: auto;">
+        <div class="card-header">Задача</div>
+        <div class="card-body text-primary">
+            <p class="card-text">
+                Есть веб-страница с таблицей. В таблице записи — это информация о клиентах.
+                При клике на одну строку (на кнопку на строке), переходим на развёрнутую информацию о клиенте. Это тоже таблица. В ней есть поле для фотографии. Сделать возможность загружать фотографии и изменять.
+                На первой странице в таблице есть ссылки на фотографии. На второй странице (с подробной информацией) подтягивается изображение.
+                Расположение файлов фотографий на файловой системе. Привязку данных о клиенте с местом на файловой системе хранить в БД PostgreSQL.
+            </p>
+        </div>
+    </div>
+
+    <div class="card border-primary mb-3" style="max-width: 100rem; margin-top: 20px; margin-inline: auto;">
+        <div class="card-header">Добавить</div>
+        <div class="card-body text-primary">
+            <form method="post">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="surname">Фамилия</label>
+                        <input type="text" class="form-control" id="surname" name="surname">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="name">Имя</label>
+                        <input type="text" class="form-control" id="name" name="name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="photoAddress">URL фотографии</label>
+                    <input type="text" class="form-control" id="photoAddress" name="photoAddress">
+                </div>
+                <div class="form-group">
+                    <label for="debt">Долг</label>
+                    <input type="text" class="form-control" id="debt" name="debt">
+                </div>
+                <button type="submit" class="btn btn-primary">Добавить</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div style=" max-width: 100rem; margin: auto;">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Фото</th>
+                    <th scope="col">Фамилия</th>
+                    <th scope="col">Имя</th>
+                    <th scope="col">Долг</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="person : ${people}">
+                    <th scope="row" th:text="${person.id}"></th>
+                    <td><img th:src="${person.photoAddress}" height="50"></td>
+                    <td th:text="${person.surname}"></td>
+                    <td th:text="${person.name}"></td>
+                    <td th:text="${person.debt}"></td>
+                    <td><button type="button" class="btn btn-outline-info">Подробнее</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
